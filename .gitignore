@@ -1,0 +1,75 @@
+###############################################################################
+# 1) Python build-Artefakte
+###############################################################################
+# Byte-Code & Caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd          # Windows-C-Extensions
+
+# Test-/Analyse-Caches
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+###############################################################################
+# 2) Packaging / Distribution
+###############################################################################
+# PyInstaller-Outputs
+build/
+dist/
+*.spec         # generierte PyInstaller-Specs – behalt sie, falls du sie versionieren willst
+
+# Wheels / eggs
+*.egg-info/
+*.egg
+*.whl
+
+###############################################################################
+# 3) Virtuelle Umgebungen & Dependencies
+###############################################################################
+.venv/
+env/
+venv/
+# pip-tools output
+requirements*.txt.lock
+pip-wheel-metadata/
+
+###############################################################################
+# 4) Editor- und IDE-Artefakte
+###############################################################################
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Sublime
+*.sublime-project
+*.sublime-workspace
+# Visual Studio (C-Python, falls mal benutzt)
+.vs/
+
+###############################################################################
+# 5) OS-Spezifischer Müll
+###############################################################################
+.DS_Store      # macOS Finder
+Thumbs.db      # Windows Explorer
+ehthumbs.db
+Icon?
+
+###############################################################################
+# 6) Laufzeit- und Log-Dateien
+###############################################################################
+*.log
+*.tmp
+*.bak
+*.swp          # Vim Swap-Files
+# Early spec-Version speicherte SQLite – lassen wir trotzdem draußen:
+*.db
+
+###############################################################################
+# 7) Docs / Graphen (falls später generiert)
+###############################################################################
+/docs/_build/
+*.pdf
+*.svg
