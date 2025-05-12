@@ -67,11 +67,3 @@ No installation required beyond copying the `.exe`.
 │ Meldungsbereich / Fehlerausgabe            │
 └────────────────────────────────────────────┘
 ```
-
-6  Open Questions
------------------
-1. **Localization**: German only for MVP—OK?  
-2. **Admin rights**: Must the `.exe` run from a locked‑down Windows account?  
-3. **Future API**: Should the parser be exposed as a standalone library later?
-
-*Stand: 2025‑05‑12* – angepasst gemäß Kundenwunsch (alle Länder, kein Batch, kein Click‑to‑Dial, 0049 ⇢ +49, E.164 Support).
