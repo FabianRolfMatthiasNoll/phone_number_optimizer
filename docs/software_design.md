@@ -2,7 +2,7 @@
 
 **Version:** 1.0  
 **Datum:** 13. Mai 2025  
-**Autor:** 2und2
+ 2und2**Autor:**
 
 ---
 
