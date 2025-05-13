@@ -12,7 +12,6 @@ Der Phone Number Optimizer ist ein Desktop‑Client, der eine eingegebene Rufnum
 ## 2 Architekturübersicht
 
 ```text
-                    MVC‑Grenze
 ┌────────────┐                      ┌─────────────┐
 │     UI     │ ◀──────────────────▶ │   Parser    │
 │ (Tk/ttk)   │     (public API)     │ (Service)   │
@@ -20,9 +19,9 @@ Der Phone Number Optimizer ist ein Desktop‑Client, der eine eingegebene Rufnum
       ▲                                    ▲
       │ nutzt                              │ nutzt
       ▼                                    ▼
-┌────────────┐                      ┌─────────────────┐
-│   config   │                      │  phonenumbers   │
-└────────────┘                      └─────────────────┘
+┌────────────┐                    ┌─────────────────┐
+│   config   │                    │  phonenumbers   │
+└────────────┘                    └─────────────────┘
 ```
 
 ### 2.1 Komponenten
